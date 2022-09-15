@@ -6,3 +6,4 @@ public class MyClassTest {
         myClass.hello("kim", 5);
     }
 }
+
