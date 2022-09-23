@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="practicing-strategy">
-      <change afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/FakeQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/FlyRocketPowered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/MiniDuckSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/RubberDuck.java" afterDir="false" />
+    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="did-quiz1">
+      <change afterPath="$PROJECT_DIR$/src/Observer/Advanced/SwingObserverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/WeatherStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src/Strategy/startFromHere" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.WeatherStation">
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strategy.startFromHere.MiniDuckSimulator" />
       <module name="Design_Pattern_2022" />
@@ -67,8 +68,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwingObserverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.Advanced.SwingObserverExample" />
+      <module name="Design_Pattern_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Observer.Advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.WeatherStation" />
+      <module name="Design_Pattern_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.WeatherStation" />
+        <item itemvalue="애플리케이션.SwingObserverExample" />
         <item itemvalue="애플리케이션.MiniDuckSimulator" />
       </list>
     </recent_temporary>
@@ -86,7 +115,7 @@
       <workItem from="1663130908177" duration="1940000" />
       <workItem from="1663238283228" duration="95000" />
       <workItem from="1663238392510" duration="7609000" />
-      <workItem from="1663775581683" duration="5793000" />
+      <workItem from="1663775581683" duration="11820000" />
     </task>
     <task id="LOCAL-00001" summary="practicing-strategy">
       <created>1663242381313</created>
@@ -95,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663242381313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="did-quiz1">
+      <created>1663899168021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663899168021</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="practicing-strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="practicing-strategy" />
+    <MESSAGE value="did-quiz1" />
+    <option name="LAST_COMMIT_MESSAGE" value="did-quiz1" />
   </component>
 </project>
