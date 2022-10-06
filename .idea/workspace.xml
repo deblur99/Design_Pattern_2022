@@ -4,19 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="previewed-observer">
-      <change afterPath="$PROJECT_DIR$/src/Observer/OnClass/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OnClass/DataObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OnClass/DisplayObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OnClass/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OnClass/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OnClass/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OnClass/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/Duck.java" afterDir="false" />
+    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="added-class-code-observer">
+      <change afterPath="$PROJECT_DIR$/src/Observer/Test1/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Test1/CellObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Test1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/DuckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/GreenDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/MechDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackArtificial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackBackward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/RedHeadDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design_Pattern_2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design_Pattern_2022.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategy/startFromHere/DecoyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/DecoyDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategy/startFromHere/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/startFromHere/MiniDuckSimulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/deblur/IdeaProjects/Design_Pattern_2022/src/Observer/OnClass",
+    "last_opened_file_path": "/Users/deblur/IdeaProjects/Design_Pattern_2022",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
@@ -66,7 +79,20 @@
       <recent name="Strategy.startFromHere" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.Observer.Test1.Main">
+    <configuration name="DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.practice1.DuckTest" />
+      <module name="Design_Pattern_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.practice1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Observer.OnClass.Main" />
       <module name="Design_Pattern_2022" />
@@ -81,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strategy.startFromHere.MiniDuckSimulator" />
+    <configuration name="Observer.Test1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.Test1.Main" />
       <module name="Design_Pattern_2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strategy.startFromHere.*" />
+          <option name="PATTERN" value="Observer.Test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingObserverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.Advanced.SwingObserverExample" />
+    <configuration name="Observer.practice1.WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.practice1.WeatherStation" />
       <module name="Design_Pattern_2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Observer.Advanced.*" />
+          <option name="PATTERN" value="Observer.practice1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,17 +147,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.DuckTest" />
+      <item itemvalue="애플리케이션.Observer.Test1.Main" />
+      <item itemvalue="애플리케이션.Observer.practice1.WeatherStation" />
       <item itemvalue="애플리케이션.Main" />
-      <item itemvalue="애플리케이션.MiniDuckSimulator" />
-      <item itemvalue="애플리케이션.SwingObserverExample" />
       <item itemvalue="애플리케이션.WeatherStation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Observer.Test1.Main" />
+        <item itemvalue="애플리케이션.Observer.practice1.WeatherStation" />
+        <item itemvalue="애플리케이션.DuckTest" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.WeatherStation" />
-        <item itemvalue="애플리케이션.SwingObserverExample" />
-        <item itemvalue="애플리케이션.MiniDuckSimulator" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +178,9 @@
       <workItem from="1663238392510" duration="7609000" />
       <workItem from="1663775581683" duration="12439000" />
       <workItem from="1664417318746" duration="13000" />
-      <workItem from="1664417348418" duration="7409000" />
+      <workItem from="1664417348418" duration="8632000" />
+      <workItem from="1664888034118" duration="14089000" />
+      <workItem from="1665035653421" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="practicing-strategy">
       <created>1663242381313</created>
@@ -173,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663928689427</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added-class-code-observer">
+      <created>1664505780998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664505780998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +231,7 @@
     <MESSAGE value="practicing-strategy" />
     <MESSAGE value="did-quiz1" />
     <MESSAGE value="previewed-observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="previewed-observer" />
+    <MESSAGE value="added-class-code-observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added-class-code-observer" />
   </component>
 </project>
