@@ -4,31 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="added-class-code-observer">
-      <change afterPath="$PROJECT_DIR$/src/Observer/Test1/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Test1/CellObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Test1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/practice1/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/DuckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyRocketPowered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/GreenDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/MechDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackArtificial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackBackward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/QuackRegular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/practice1/RedHeadDuck.java" afterDir="false" />
+    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="added-observer-quiz">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Grape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/IOSimulator/InputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/IOSimulator/LowerCaseInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/IOSimulator/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/deblur/IdeaProjects/Design_Pattern_2022",
+    "last_opened_file_path": "/Users/deblur/IdeaProjects/Design_Pattern_2022/src/Decorator/Study/Old",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
@@ -72,14 +69,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Decorator/Study/Old" />
       <recent name="$PROJECT_DIR$/src/Observer/OnClass" />
       <recent name="$PROJECT_DIR$/src/Strategy/startFromHere" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Decorator.Study" />
       <recent name="Strategy.startFromHere" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Observer.Test1.Main">
+  <component name="RunManager" selected="애플리케이션.InputTest">
     <configuration name="DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strategy.practice1.DuckTest" />
       <module name="Design_Pattern_2022" />
@@ -93,13 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.OnClass.Main" />
+    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Study.IOSimulator.InputTest" />
       <module name="Design_Pattern_2022" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Observer/OnClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Observer.OnClass.*" />
+          <option name="PATTERN" value="Decorator.Study.IOSimulator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.WeatherStation" />
+    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Study.StarbuzzCoffee" />
       <module name="Design_Pattern_2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Observer.*" />
+          <option name="PATTERN" value="Decorator.Study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +145,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.InputTest" />
+      <item itemvalue="애플리케이션.StarbuzzCoffee" />
       <item itemvalue="애플리케이션.DuckTest" />
       <item itemvalue="애플리케이션.Observer.Test1.Main" />
       <item itemvalue="애플리케이션.Observer.practice1.WeatherStation" />
-      <item itemvalue="애플리케이션.Main" />
-      <item itemvalue="애플리케이션.WeatherStation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.InputTest" />
+        <item itemvalue="애플리케이션.StarbuzzCoffee" />
         <item itemvalue="애플리케이션.Observer.Test1.Main" />
         <item itemvalue="애플리케이션.Observer.practice1.WeatherStation" />
         <item itemvalue="애플리케이션.DuckTest" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.WeatherStation" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,9 @@
       <workItem from="1664417318746" duration="13000" />
       <workItem from="1664417348418" duration="8632000" />
       <workItem from="1664888034118" duration="14089000" />
-      <workItem from="1665035653421" duration="598000" />
+      <workItem from="1665035653421" duration="618000" />
+      <workItem from="1665106338079" duration="4203000" />
+      <workItem from="1665492272218" duration="12722000" />
     </task>
     <task id="LOCAL-00001" summary="practicing-strategy">
       <created>1663242381313</created>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664505780998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added-observer-quiz">
+      <created>1665039073978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665039073978</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +239,7 @@
     <MESSAGE value="did-quiz1" />
     <MESSAGE value="previewed-observer" />
     <MESSAGE value="added-class-code-observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added-class-code-observer" />
+    <MESSAGE value="added-observer-quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="added-observer-quiz" />
   </component>
 </project>
