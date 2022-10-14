@@ -4,29 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="added-decorator-study-sources">
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Condiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Decaffeine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/05startFromHere.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/AlmondMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Decaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/OptionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Shot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Sugar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Whip.java" afterDir="false" />
+    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="added-decorator-sizeup-codes">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Cinnamon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/CoffeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Condiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Size.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Study/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Study/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/Condiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Condiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/Decaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Decaffeine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/HouseBlend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lecture/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/MyPractice/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/MyPractice/Grape.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -74,12 +73,28 @@
       <recent name="$PROJECT_DIR$/src/Observer/OnClass" />
       <recent name="$PROJECT_DIR$/src/Strategy/startFromHere" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Decorator/Lecture" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Decorator.Study" />
       <recent name="Strategy.startFromHere" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Decorator.Lecture.Main">
+  <component name="RunManager" selected="애플리케이션.CoffeeTest">
+    <configuration name="CoffeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.MyPractice.CoffeeTest" />
+      <module name="Design_Pattern_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.MyPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Decorator.Lecture.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decorator.Lecture.Main" />
       <module name="Design_Pattern_2022" />
@@ -99,19 +114,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Decorator.Quiz.startFromHere.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decorator.Study.IOSimulator.InputTest" />
-      <module name="Design_Pattern_2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Decorator.Study.IOSimulator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +142,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.CoffeeTest" />
       <item itemvalue="애플리케이션.Decorator.Lecture.Main" />
       <item itemvalue="애플리케이션.Decorator.Quiz.startFromHere.Main" />
-      <item itemvalue="애플리케이션.InputTest" />
       <item itemvalue="애플리케이션.StarbuzzCoffee" />
       <item itemvalue="애플리케이션.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.CoffeeTest" />
         <item itemvalue="애플리케이션.Decorator.Lecture.Main" />
+        <item itemvalue="애플리케이션.StarbuzzCoffee" />
         <item itemvalue="애플리케이션.Decorator.Quiz.startFromHere.Main" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.InputTest" />
-        <item itemvalue="애플리케이션.StarbuzzCoffee" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,7 @@
       <workItem from="1664888034118" duration="14089000" />
       <workItem from="1665035653421" duration="618000" />
       <workItem from="1665106338079" duration="4203000" />
-      <workItem from="1665492272218" duration="29024000" />
+      <workItem from="1665492272218" duration="43783000" />
     </task>
     <task id="LOCAL-00001" summary="practicing-strategy">
       <created>1663242381313</created>
@@ -219,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665505274892</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added-decorator-sizeup-codes">
+      <created>1665716421201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665716421201</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +252,43 @@
     <MESSAGE value="added-class-code-observer" />
     <MESSAGE value="added-observer-quiz" />
     <MESSAGE value="added-decorator-study-sources" />
-    <option name="LAST_COMMIT_MESSAGE" value="added-decorator-study-sources" />
+    <MESSAGE value="added-decorator-sizeup-codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added-decorator-sizeup-codes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/Lecture/Sugar.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/Lecture/Cinnamon.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/Lecture/Mocha.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/Lecture/Milk.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/MyPractice/CoffeeTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/MyPractice/CoffeeTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

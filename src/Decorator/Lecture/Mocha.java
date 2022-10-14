@@ -1,24 +1,24 @@
 package Decorator.Lecture;
 
-public class Milk extends Condiment {
-    public Milk(Beverage beverage) {
+public class Mocha extends Condiment {
+    public Mocha(Beverage beverage) {
         this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", Milk";
+        return beverage.getDescription() + ", Mocha";
     }
 
     @Override
     public double getSizeCost() {
         switch (getSize()) {
             case TALL:
-                return .15;
+                return .33;
             case GRANDE:
-                return .3;
+                return .66;
             case VENTI:
-                return .45;
+                return .99;
             default:
                 return .0;
         }

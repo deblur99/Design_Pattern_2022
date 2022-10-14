@@ -1,18 +1,54 @@
 package Decorator.Lecture;
 
-public class Main {
-    public static void main(String[] args) {
-        Beverage myBeverage = new DarkRoast();
-        System.out.println(myBeverage.getDescription()+", $"+myBeverage.cost());
-        Beverage yourBeverage = new Decaffeine();
-        System.out.println(yourBeverage.getDescription()+", $"+yourBeverage.cost());
-        Beverage hisBeverage = new Espresso();
-        System.out.println(hisBeverage.getDescription()+", $"+hisBeverage.cost());
-        Beverage herBeverage = new HouseBlend();
-        System.out.println(herBeverage.getDescription()+", $"+herBeverage.cost());
+import java.util.ArrayList;
 
-        System.out.println("====== Applying Decorator to Component ======");
-        myBeverage = new Milk(myBeverage);
-        System.out.println(myBeverage.getDescription()+", $"+myBeverage.cost());
+public class Main {
+    private static void beverageTest(Beverage beverage) {
+        System.out.println("====== Applying Decorator to be "+beverage.getDescription()+" ======");
+        beverage = new Milk(beverage);
+        beverage = new Sugar(beverage);
+        beverage = new Sugar(beverage);
+        beverage = new Mocha(beverage);
+        beverage = new Mocha(beverage);
+        beverage = new Mocha(beverage);
+        beverage = new Mocha(beverage);
+        beverage = new Mocha(beverage);
+        beverage = new Cinnamon(beverage);
+
+        beverage.setSize(Size.TALL);
+        System.out.println(beverage.getSize()+" "+beverage.getDescription() + ", $" + beverage.cost());
+
+        beverage.setSize(Size.GRANDE);
+        System.out.println(beverage.getSize()+" "+beverage.getDescription() + ", $" + beverage.cost());
+
+        beverage.setSize(Size.VENTI);
+        System.out.println(beverage.getSize()+" "+beverage.getDescription() + ", $" + beverage.cost());
+
+        beverage.setSize(Size.TALL);
+        System.out.println(beverage.getSize()+" "+beverage.getDescription() + ", $" + beverage.cost());
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Beverage> beverageArrayList = new ArrayList<Beverage>();
+
+        Beverage myBeverage = new DarkRoast();
+        System.out.println(myBeverage.getDescription() + ", $" + myBeverage.cost());
+        beverageArrayList.add(myBeverage);
+
+        Beverage yourBeverage = new Decaffeine();
+        System.out.println(yourBeverage.getDescription() + ", $" + yourBeverage.cost());
+        beverageArrayList.add(yourBeverage);
+
+        Beverage hisBeverage = new Espresso();
+        System.out.println(hisBeverage.getDescription() + ", $" + hisBeverage.cost());
+        beverageArrayList.add(hisBeverage);
+
+        Beverage herBeverage = new HouseBlend();
+        System.out.println(herBeverage.getDescription() + ", $" + herBeverage.cost());
+        beverageArrayList.add(herBeverage);
+
+        for (Beverage beverage: beverageArrayList) {
+            beverageTest(beverage);
+        }
     }
 }
