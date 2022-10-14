@@ -4,28 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="added-observer-quiz">
-      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/MyPractice/Grape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/IOSimulator/InputTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/IOSimulator/LowerCaseInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/IOSimulator/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/Decaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Old/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Soy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/StarbuzzCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Study/Whip.java" afterDir="false" />
+    <list default="true" id="d23e2ed3-b015-4f9c-bdee-e5345ccf67ff" name="변경" comment="added-decorator-study-sources">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Condiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Decaffeine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lecture/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/05startFromHere.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/AlmondMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/OptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Shot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Quiz/startFromHere/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Study/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Study/CondimentDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +79,26 @@
       <recent name="Strategy.startFromHere" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.InputTest">
-    <configuration name="DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strategy.practice1.DuckTest" />
+  <component name="RunManager" selected="애플리케이션.Decorator.Lecture.Main">
+    <configuration name="Decorator.Lecture.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Lecture.Main" />
       <module name="Design_Pattern_2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strategy.practice1.*" />
+          <option name="PATTERN" value="Decorator.Lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator.Quiz.startFromHere.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Quiz.startFromHere.Main" />
+      <module name="Design_Pattern_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.Quiz.startFromHere.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,28 +119,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observer.Test1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.Test1.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Design_Pattern_2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Observer.Test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Observer.practice1.WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.practice1.WeatherStation" />
-      <module name="Design_Pattern_2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Observer.practice1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,19 +140,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.Decorator.Lecture.Main" />
+      <item itemvalue="애플리케이션.Decorator.Quiz.startFromHere.Main" />
       <item itemvalue="애플리케이션.InputTest" />
       <item itemvalue="애플리케이션.StarbuzzCoffee" />
-      <item itemvalue="애플리케이션.DuckTest" />
-      <item itemvalue="애플리케이션.Observer.Test1.Main" />
-      <item itemvalue="애플리케이션.Observer.practice1.WeatherStation" />
+      <item itemvalue="애플리케이션.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Decorator.Lecture.Main" />
+        <item itemvalue="애플리케이션.Decorator.Quiz.startFromHere.Main" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.InputTest" />
         <item itemvalue="애플리케이션.StarbuzzCoffee" />
-        <item itemvalue="애플리케이션.Observer.Test1.Main" />
-        <item itemvalue="애플리케이션.Observer.practice1.WeatherStation" />
-        <item itemvalue="애플리케이션.DuckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +175,7 @@
       <workItem from="1664888034118" duration="14089000" />
       <workItem from="1665035653421" duration="618000" />
       <workItem from="1665106338079" duration="4203000" />
-      <workItem from="1665492272218" duration="12722000" />
+      <workItem from="1665492272218" duration="29024000" />
     </task>
     <task id="LOCAL-00001" summary="practicing-strategy">
       <created>1663242381313</created>
@@ -217,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665039073978</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added-decorator-study-sources">
+      <created>1665505274892</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665505274892</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +242,7 @@
     <MESSAGE value="previewed-observer" />
     <MESSAGE value="added-class-code-observer" />
     <MESSAGE value="added-observer-quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="added-observer-quiz" />
+    <MESSAGE value="added-decorator-study-sources" />
+    <option name="LAST_COMMIT_MESSAGE" value="added-decorator-study-sources" />
   </component>
 </project>
